@@ -1,16 +1,50 @@
-<<<<<<< HEAD
-# React + Vite
+# 📓 My Diary Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**My Diary Notes** is a personalized digital diary web application where users can write, customize, and revisit their memories in a rich, user-friendly interface. It offers unique user accounts, formatting options, image attachments, time customization, and collaborative writing features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 **User Authentication**  
+  Every user must create a unique account to access the application. This ensures your personal memories are kept private and secure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# My-Diary-Notes
->>>>>>> 4723d8b40436a2893c5f43788b3c496bdd373dc1
+- ✍️ **Rich Text Editor**  
+  After logging in, users are presented with a writing area where they can:
+  - Write diary entries freely
+  - Change **font size**, **font color**, and **text position** for personalization
+  - Attach **images** to diary entries as memory symbols
+
+- 🕒 **Automatic Date & Time**  
+  Each diary entry records the current date and time automatically when you start writing.
+
+- 🕰️ **Custom Time/Date**  
+  Want to write about a past memory? You can **manually edit** the timestamp of an entry to reflect the correct date/time.
+
+- 📚 **Diary Management**  
+  - View all your past entries by clicking on the **"My Diaries"** section
+  - Entries are shown in a neat, **diary-style layout**
+  - You can create and manage **multiple diaries**
+
+- 🤝 **Collaborative Writing**  
+  Invite your friends using their **username** to **write or read** any of your diaries collaboratively.
+
+---
+
+## 🛠️ Tech Stack (Example)
+
+> _Note: You can modify this section based on your actual tech stack_
+
+- Frontend: React.js
+- Backend: Node.js + Express.js
+- Database: MongoDB
+- Authentication: JWT or OAuth2
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Abhixak/My-Diary-Notes.git
+cd my-diary-notes
